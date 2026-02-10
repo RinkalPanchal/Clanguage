@@ -1,3 +1,5 @@
+//Return SUm of all elements
+
 #include <stdio.h>
 int sum(int a[], int n){
     int i, total = 0;
