@@ -1,12 +1,10 @@
-// Print the 3D array index wise
-
+//Modification in array elements
 #include<stdio.h>
 
 int main(){
-
     int i,j,k;
-    int A[3][3][3] = {       //array declaration and initialization
-                {
+    int a[3][3][3]={               //Define the rows and columns elements 
+        {
          {11, 12, 13},
          {14, 15, 16},
          {17, 18, 19}
@@ -23,17 +21,18 @@ int main(){
       },
     };
 
-    //Printing elements 
+    a[0][1][1] = 18;       //Modifiy the elements in an array
+
+    printf("printing Modify array 3d elements:\n");
 
     for(i = 0; i < 3; i++){
-        for(j = 0; j < 3; j++){
+        for(j = 0; j < 3;j++ ){
             for(k = 0; k < 3; k++){
-                printf("A[%d][%d][%d] = %d\n",i,j,k,A[i][j][k]);
+                printf("%4d",a[i][j][k]);      //printing the elements as a matrix 
             }
+            printf("\n");
         }
         printf("\n");
     }
-
     return 0;
-
 }
