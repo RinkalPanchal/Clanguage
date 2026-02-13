@@ -1,5 +1,7 @@
 //program to find the maximum number in an array using pointers
 
+//Function Returning Pointer
+
 #include<stdio.h>
 
 int maximum(int a[5] , int *max){
