@@ -5,11 +5,11 @@
 int main(){
     int x = 10;
 
-    int *p = &x;
+    int *p = &x;       //access the vlaue using pointer
 
-    printf("Current value is :%d\n",*p);
+    printf("Current value is :%d\n",*p);   
 
-    *p = 20;
+    *p = 20;    //Manipulate the variable data
 
     printf("Updated value is :%d\n",*p);
 

@@ -1,5 +1,7 @@
 // Malloc Function
 
+//It allocate a memory dynamically according to the size in the heap
+
 #include<stdio.h>
 #include<stdlib.h>
 

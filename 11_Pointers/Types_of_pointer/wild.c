@@ -4,8 +4,8 @@
 
 int main(){
 
-    int *p;
-    *p = 10;
+    int *p; 
+    *p = 10;              //uninitialized pointer
     printf("%d", *p);
     return 0;
 }

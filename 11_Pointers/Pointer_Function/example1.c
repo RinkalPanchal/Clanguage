@@ -17,7 +17,7 @@ int main(){
     int x = 10;
     float a[3];
 
-    array(x,a);
+    array(x,&a);
 
     printf("Square of %d: %f\n", x, a[0]);
     printf("cube of %d: %f\n", x, a[1]);

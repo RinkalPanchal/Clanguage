@@ -1,4 +1,4 @@
-//Traverse an array with pointer
+//Traverse an 1d array with pointer
 
 #include<stdio.h>
 
