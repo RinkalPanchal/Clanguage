@@ -36,16 +36,19 @@ int main(){
 
 
     int (*a[4])(int , int) = {&add , &sub , &mul , &div};
-
+    while(1)
+    {
     printf("0.add\n1.sub\n2.mul\n3.div\n");
     scanf("%d", &choice);
-
+    
     if(choice>=0 && choice<=3){
         int result = a[choice](x,y);
         printf("result = %d\n", result);
     }
     else{
         printf("Invalid choice\n");
+        break;
+    }
     }
     return 0;
 }
